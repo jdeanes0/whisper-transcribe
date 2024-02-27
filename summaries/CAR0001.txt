@@ -1,0 +1,32 @@
+Subjective:
+The patient, a 39-year-old male, presents with sharp chest pain that started last night and has been constant for approximately eight hours, worsening with lying down. He rates the pain as a seven to eight on a ten-point scale and reports feeling lightheaded, having trouble breathing, and a racing heart. The patient denies any initial injury or trauma that could have caused the pain. He also mentions a little neck swelling but no neck pain.
+
+Medications:
+The patient does not currently take any medications, neither prescribed nor over-the-counter.
+
+Allergies:
+The patient has no known allergies to medications.
+
+Family History:
+Father had a heart attack at the age of 45, with a history of cholesterol problems. No other significant family history of strokes or cancers reported.
+
+Lifestyle History:
+- Tobacco: Smokes about a pack of cigarettes daily for the last 10-15 years.
+- Cannabis: Occasionally smokes marijuana, approximately five milligrams per week.
+- Alcohol: Consumes one to two drinks per day, totaling about 10 drinks per week.
+- Recreational Drugs: Denies use of other recreational drugs and IV drugs.
+
+Objective:
+Physical characteristics are not detailed in the interview.
+
+HEENT:
+Patient reports no significant issues related to head, eyes, ears, nose, or throat.
+
+Assessment:
+1. Acute sharp chest pain with associated lightheadedness and breathing difficulty.
+2. Family history of heart attack and cholesterol problems in father at a relatively young age.
+
+Plan:
+1. Immediate referral for further evaluation and diagnostic tests to rule out cardiac conditions.
+2. Consideration of lifestyle modifications, especially smoking cessation and alcohol intake reduction.
+3. Follow-up appointment to discuss test results and recommendations for ongoing care.
