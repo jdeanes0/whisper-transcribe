@@ -448,21 +448,13 @@ class VoiceRecorder:
         if self.transcript_checkbox_var.get():
             # Create output file
             output_file = self.text_output.get()
-            if self.largev2_checkbox_var.get():
-                with open(output_file, 'w') as file:
-                    # Write the transcribed text to the output file
-                    file.write(transcribed_text)
-            else:
-                with open(output_file, 'w') as file:
-                    # Write the transcribed text to the output file
-                    file.write(result["text"])
+            with open(output_file, 'w') as file:
+                # Write the transcribed text to the output file
+                file.write(result["text"])
             self.msglabel.config(text="Transcribed text saved to '"+ output_file + "'")
         elif self.summary_checkbox_var.get():
             self.msglabel.config(text="Summarizing '"+file_path+"'. Do not exit the application.")
-            if self.largev2_checkbox_var.get():
-                self.summarize_transcription(transcribed_text)
-            else:
-                self.summarize_transcription(result["text"])
+            self.summarize_transcription(result["text"])
         else:
             self.msglabel.config(text="A task must be selected!")
         # Enable transcription button
