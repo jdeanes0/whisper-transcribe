@@ -1,0 +1,30 @@
+Subjective:
+The patient presents with a recent tick bite behind the left knee, noticed after engaging in outdoor activities, including hiking and gardening. The patient reports the tick was small, not engorged, and does not exhibit the typical target rash associated with Lyme disease. Past medical history includes a previous tick bite with a bullseye rash and subsequent antibiotic treatment. The patient is concerned about potential Lyme disease transmission.
+
+Medications:
+The patient takes a statin medication for cholesterol management.
+
+Allergies:
+The patient reports no known drug allergies.
+
+Family History:
+No relevant family history provided during the interview.
+
+Lifestyle History:
+The patient denies tobacco, alcohol, or other drug use.
+
+Objective:
+Physical characteristics were not explicitly detailed in the interview.
+
+HEENT:
+The HEENT examination findings were not explicitly mentioned in the conversation.
+
+Assessment:
+Concern for possible Lyme disease transmission due to recent tick bite. Tick did not exhibit significant engorgement, and the patient does not currently display systemic symptoms of illness.
+
+Plan:
+1. Initiate antibiotic treatment prophylactically given the duration of tick attachment.
+2. Consult with the physician to discuss the necessity of antibiotic therapy and further diagnostic steps.
+3. Consider sending the tick for species identification to determine potential Lyme disease risk.
+4. Evaluate the need for blood work to assess for Lyme disease titers or serology.
+5. Advise the patient to monitor for any signs of infection or illness and follow up if any new symptoms develop.

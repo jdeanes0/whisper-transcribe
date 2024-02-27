@@ -37,7 +37,7 @@ class VoiceRecorder:
         # Creates textfield for input audio file
         self.text_input = tk.Entry(self.root)
         # Pre-populates the field with "Audio.mp3"
-        self.text_input.insert(tk.END, "Audio.mp3") 
+        self.text_input.insert(tk.END, "audiofiles/.mp3") 
         # Places textfield in first row and second column
         self.text_input.grid(row=0, column=1, padx=5, pady=5)
 
@@ -49,7 +49,7 @@ class VoiceRecorder:
         # Creates textfield for output audio file
         self.text_output = tk.Entry(self.root)
         # Pre-populates the field with "Audio.txt"
-        self.text_output.insert(tk.END, "Audio.txt") 
+        self.text_output.insert(tk.END, "summaries/.txt") 
         # Places textfield in second row and second column
         self.text_output.grid(row=1, column=1, padx=5, pady=5)
 
@@ -395,6 +395,7 @@ class VoiceRecorder:
         # Disable record button
         self.button.config(state='disabled')
         audio_file= open(file_path, "rb")
+        transcribe_start = time.time()
 
         if self.tiny_checkbox_var.get():
             # Sets the Whisper model. The model is set to tiny.
@@ -422,7 +423,7 @@ class VoiceRecorder:
             # Transcribe the text from the audio (specified by the file_path) and place the string into result
             result = model.transcribe(file_path)
         elif self.largev2_checkbox_var.get():
-            model = whisper.load_model("large-v3")
+            model = whisper.load_model("large-v2")
 
             result = model.transcribe(file_path)
         else:
@@ -445,6 +446,8 @@ class VoiceRecorder:
                 self.largev2_checkbox.config(state="normal")
                 self.summary_checkbox.config(state="normal")
             return
+        transcribe_end = time.time()
+        print("Transcription time:", transcribe_end - transcribe_start)
         if self.transcript_checkbox_var.get():
             # Create output file
             output_file = self.text_output.get()

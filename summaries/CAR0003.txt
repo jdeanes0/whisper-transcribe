@@ -1,0 +1,32 @@
+Subjective:
+The patient presents with a chief complaint of experiencing breathlessness for the past two months, exacerbated by exertion and exacerbated further when walking more than 50 meters. The patient mentions a cough sometimes, with frothy sputum production, and worsening breathlessness over the two-month period. No history of chest pain, but has difficulty breathing when lying down, needing to prop up with pillows. Swelling around the legs was reported, and breathlessness has started impacting daily activities, particularly at work. The patient has a past medical history of a heart attack four years ago, high blood pressure, diabetes, and high cholesterol, for which they take aspirin, ramipril, and a statin.
+
+Medications:
+- Aspirin
+- Ramipril
+- Statin
+
+Allergies: None reported.
+
+Family History:
+- Father died of a heart attack at age 60.
+
+Lifestyle History:
+- Former smoker: 10 cigarettes a day for 40 years.
+- No current use of recreational drugs or alcohol.
+- Reported a recent decrease in exercise levels and struggles with maintaining a balanced diet.
+
+Objective:
+Physical characteristics not provided; no significant physical details mentioned in the interview.
+
+HEENT:
+No specific symptoms related to the head, eyes, ears, nose, and throat mentioned.
+
+Assessment:
+Possible congestive heart failure due to swelling, breathlessness, and history of a heart attack, requiring further investigations for confirmation.
+
+Plan:
+1. Perform diagnostic tests to confirm congestive heart failure diagnosis.
+2. Consider initiating diuretic therapy to address fluid retention.
+3. Monitor and evaluate medication efficacy in managing cardiovascular conditions.
+4. Provide lifestyle counseling regarding diet and exercise to improve overall health outcomes.

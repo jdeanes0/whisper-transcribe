@@ -1,0 +1,23 @@
+Subjective: The patient, a high school student involved in football practice, presented with acute right shoulder pain following a fall during practice resulting in a sharp stabbing pain, rated at 10/10. The patient described a lump on the clavicle area with bruising and swelling, along with a visible sagging appearance of the shoulder. He has been immobilizing the arm and reported no pain in other joints or muscles. There was no history of previous fractures, medical conditions, head injuries, or surgeries. The patient reported taking occasional allergy medication but denied any known medication allergies. He mentioned living with his parents and siblings, being a high school student, and working part-time at a grocery store. The patient admitted to occasional alcohol consumption but denied smoking or using recreational drugs.
+
+Medications:
+- Occasional allergy medication.
+
+Allergies: None reported.
+
+Family History: No significant medical conditions mentioned in the family history.
+
+Lifestyle History: The patient is a high school student, works part-time at a grocery store, lives with family, and engages in occasional alcohol consumption but denies smoking or recreational drug use.
+
+Objective: The patient presented with acute right shoulder pain, visible lump on the clavicle area, bruising, and swelling. No other abnormal physical characteristics were noted.
+
+HEENT: The patient reported no issues related to Head, Eyes, Ears, Nose, or Throat.
+
+Assessment:
+1. Acute right shoulder pain following a fall during football practice, with signs suggestive of a clavicle injury. 
+
+Plan:
+1. Order X-ray of the shoulder and clavicle to assess for possible fracture.
+2. Determine the extent and location of the clavicle injury to guide further management, which could include reduction, sling placement, or referral to an orthopedic surgeon for surgery if needed.
+3. Provide pain medication as necessary.
+4. Follow up with the patient post X-ray for appropriate treatment and care.

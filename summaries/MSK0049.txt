@@ -1,0 +1,24 @@
+SUBJECTIVE: The patient, a retired female, presents with a chief complaint of persistent pain and stiffness in her left knee for the past two months, hindering her daily activities. She describes the pain as mostly dull, occasionally sharp, worsening with increased activity, and alleviated by rest. She reports morning stiffness lasting 15-30 minutes and rates her pain as a 7 out of 10. She mentions a recent weight gain of 20 pounds over six months without significant changes in diet or exercise and denies fever, chills, night sweats, respiratory symptoms, chest pain, and other systemic issues.
+
+MEDICATIONS:
+1. Insulin for diabetes.
+2. Ramipril for high blood pressure.
+3. Statin for high cholesterol.
+
+ALLERGIES: The patient denies any known allergies to medications.
+
+FAMILY HISTORY: The patient reports a family history of diabetes but no musculoskeletal or autoimmune conditions.
+
+LIFESTYLE HISTORY: The patient lives with her husband downtown, is retired, and consumes one glass of wine daily. She does not smoke or use recreational drugs.
+
+OBJECTIVE: The patient has mild swelling in her left knee, without redness or temperature changes. Tenderness is noted along the joint line and over the patella. She demonstrates normal range of motion but experiences pain with knee flexion and extension. She presents with an antalgic gait due to avoiding weight-bearing on the affected knee.
+
+HEENT: No pertinent findings in the head, eyes, ears, nose, or throat.
+
+ASSESSMENT: Osteoarthritis of the left knee, exacerbating pain and stiffness with activities.
+
+PLAN:
+1. Advise on maintaining activity while pacing to prevent overexertion.
+2. Recommend using Tylenol for pain relief and consider NSAIDs for acute flare-ups.
+3. Suggest topical agents like Voltaren for localized relief.
+4. Discuss the option of a steroid injection for persistent symptoms.

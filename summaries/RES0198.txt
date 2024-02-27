@@ -1,0 +1,29 @@
+Subjective: The patient presents with symptoms of nasal congestion alternating with a runny nose for the past week. There is a concern for COVID-19 infection prompting the visit today.
+
+Medications:
+- Over-the-counter decongestants for symptom relief.
+
+Allergies:
+- The patient denies any known allergies.
+
+Family History:
+- No significant family history of medical conditions involving lungs, heart, or autoimmune diseases reported.
+
+Lifestyle History:
+- Alcohol: The patient does not drink alcohol.
+- Tobacco and Drug Use: The patient denies tobacco use and infrequently consumes marijuana in edible form.
+
+Objective:
+- The physical characteristics of the patient were not explicitly mentioned in the interview.
+
+HEENT: 
+- The patient reports nasal congestion, runny nose, and no other significant symptoms related to the head, eyes, ears, nose, or throat.
+
+Assessment:
+- Likely viral infection causing nasal symptoms, possibly a common cold, with considerations for COVID-19 based on the ongoing pandemic.
+
+Plan:
+1. Conduct a swab test for COVID-19.
+2. Recommend symptomatic treatment with over-the-counter cold medications.
+3. Encourage the patient to stay hydrated and isolated at home until test results are available.
+4. Provide further instructions based on the test results and public health guidelines.
