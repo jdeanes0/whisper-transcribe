@@ -1,32 +1,34 @@
-Subjective:
-The patient presents with a chief complaint of experiencing breathlessness for the past two months, exacerbated by exertion and exacerbated further when walking more than 50 meters. The patient mentions a cough sometimes, with frothy sputum production, and worsening breathlessness over the two-month period. No history of chest pain, but has difficulty breathing when lying down, needing to prop up with pillows. Swelling around the legs was reported, and breathlessness has started impacting daily activities, particularly at work. The patient has a past medical history of a heart attack four years ago, high blood pressure, diabetes, and high cholesterol, for which they take aspirin, ramipril, and a statin.
+Patient Description: 
+- Age: Not specified
+- Gender: Not specified
+- Height: Not specified
+- Weight: Not specified
 
-Medications:
-- Aspirin
-- Ramipril
-- Statin
+Reason for Visit: 
+- Chief complaint of feeling breathless, progressively worsening, especially on exertion and when lying down.
 
-Allergies: None reported.
+Prior Surgeries: 
+- Stent placement due to a heart attack four years ago.
 
-Family History:
-- Father died of a heart attack at age 60.
+Prior/Current Illnesses/Injuries: 
+- High blood pressure, diabetes, high cholesterol.
+- Symptoms: Breathlessness, cough with frothy sputum, fatigue, leg swelling noticed around two months ago.
 
-Lifestyle History:
-- Former smoker: 10 cigarettes a day for 40 years.
-- No current use of recreational drugs or alcohol.
-- Reported a recent decrease in exercise levels and struggles with maintaining a balanced diet.
+Medications & Dosages: 
+- Aspirin, Ramipril, Simvastatin.
 
-Objective:
-Physical characteristics not provided; no significant physical details mentioned in the interview.
+Family Health History: 
+- Father deceased from a heart attack at 60.
 
-HEENT:
-No specific symptoms related to the head, eyes, ears, nose, and throat mentioned.
+Additional Information:
+- No current smoking or alcohol use.
+- History of smoking 10 cigarettes per day for 40 years.
+- Occupation: Cashier.
+- Living alone in an apartment.
+- Attempting to eat healthier, reduced exercise levels in the last two months.
 
-Assessment:
-Possible congestive heart failure due to swelling, breathlessness, and history of a heart attack, requiring further investigations for confirmation.
+Potential Diagnosis: 
+- Congestive heart failure suggested based on symptoms, history of heart attack, medication profile, and leg swelling.
+- Plan for further investigations to confirm diagnosis and potentially initiate treatment with diuretics.
 
-Plan:
-1. Perform diagnostic tests to confirm congestive heart failure diagnosis.
-2. Consider initiating diuretic therapy to address fluid retention.
-3. Monitor and evaluate medication efficacy in managing cardiovascular conditions.
-4. Provide lifestyle counseling regarding diet and exercise to improve overall health outcomes.
+Please note that certain details such as age, gender, height, and weight were not explicitly provided in the interview.

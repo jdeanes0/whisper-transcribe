@@ -1,39 +1,15 @@
-Based on the interview provided, here is the summary:
+Summary:
+Patient Description: Male, age not specified, height/weight not specified.
+Reason for Visit: Chest pain on the left side, started suddenly 30 minutes ago, rated severity at 7/10.
+Prior Surgeries: None.
+Prior/Current Illnesses/Injuries: High cholesterol, high blood pressure, takes rosuvastatin and lisinopril, no hospitalizations, no allergies.
+Family Health History: No family history of heart attacks or cancers.
+Medications: Rosuvastatin, lisinopril, multivitamin.
+Allergies: None mentioned.
+Smoking: Smokes half a pack to a pack a day for the last 20 years.
+Alcohol Use: None.
+Recreational Drug Use: Used crystal meth a couple of times a month for the past 7 years, last use six days ago.
+Symptoms: Chest pain with pressure, shortness of breath since yesterday, fever today (38°C), faster heartbeat now, no cough, runny nose, or sore throat, no dizziness, fainting, or fatigue.
+Additional Issues: Diet is fairly balanced, may eat out too often, occasional run for exercise on Sundays, works as a bus driver, lives with parents, no recent travel, tackled during rugby, feeling hot, no leg swelling, no skin changes or rashes.
 
-SUBJECTIVE:
-The patient presents with dull, pressure-like pain in the left chest region that started suddenly 30 minutes ago while he was shoveling the driveway. The pain has not improved and is rated as a 7 out of 10. He reports feeling short of breath since yesterday but denies other symptoms like coughing or nausea. The pain worsens with movement and lying down. Patient mentions recent rugby tackle without immediate chest pain and recounts no recent travel, sickness exposure, or significant injuries.
-
-MEDICATIONS:
-- Resurvisatin and Acidate for high blood pressure
-- Acidate for cholesterol
-- Multivitamin
-
-ALLERGIES:
-No known allergies.
-
-FAMILY HISTORY:
-No family history of heart attack or cancer.
-
-LIFESTYLE HISTORY:
-- Occupation: Bus driver
-- Exercise: Runs on Sundays
-- Diet: Balanced with occasional dining out and emphasis on vegetables
-- Smoking: Smokes half a pack to a pack a day for 20 years
-- Alcohol: Does not drink
-- Recreational drugs: Used Crystal meth a couple of times a month for 7 years, last use was six days ago
-
-OBJECTIVE:
-Height, weight, and other physical characteristics not provided.
-
-HEENT:
-No abnormal symptoms reported pertaining to the head, eyes, ears, nose, or throat.
-
-ASSESSMENT:
-Acute onset chest pain with associated shortness of breath and recent physical exertion, potentially related to recent rugby activity or underlying cardiovascular issues.
-
-PLAN:
-1. Recommend ECG to assess for cardiac involvement in relation to chest pain.
-2. Consider chest X-ray to rule out any signs of injury or lung issues.
-3. Refer patient to cardiologist for further evaluation of chest pain and shortness of breath.
-4. Encourage smoking cessation and addressing Crystal meth use through appropriate resources.
-5. Discuss lifestyle modifications for better cardiovascular health.
+Please let me know if there is anything else that needs to be included or if any modifications are required.

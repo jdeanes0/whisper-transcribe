@@ -1,28 +1,31 @@
-**SUBJECTIVE:**  
-The patient, a 25-year-old student working part-time as a postman, presents with a sharp chest pain that started three days ago. The pain, rated at a six out of ten, is located over the heart and sometimes radiates to the neck. It occurs briefly, particularly when coughing or lying down, and improves with forward lean. The patient reports no other associated symptoms except transient episodes of chest pain. There is a concern about a possible heart attack due to their father's recent fatal heart attack.
+Patient Description: 
+- Age: 25
+- Gender: Male
+- No specific height or weight mentioned
 
-**MEDICATIONS:**  
-- Occasionally takes Tylenol.
+Reason for Visit:
+- Sharp chest pain for three days, worsens with coughing or lying down, alleviated by leaning forward, sometimes radiates to the neck, rated pain as 6/10
 
-**ALLERGIES:**  
-- No known allergies reported.
+Prior Surgeries: 
+- No prior surgeries reported
 
-**FAMILY HISTORY:**  
-- Father suffered a fatal heart attack two weeks ago.
+Prior/Current Illnesses/Injuries:
+- Recent flu with fever, runny nose, cough, fatigue (now resolved)
 
-**LIFESTYLE HISTORY:**  
-- Drinks alcohol occasionally on weekends but denies recreational drug use or smoking.
+Medications & Dosages:
+- Occasionally takes Tylenol
 
-**OBJECTIVE:**  
-Physical characteristics and further objective data are not provided in the interview.
+Allergies:
+- No known allergies reported
 
-**HEENT:**  
-No relevant symptoms reported related to head, eyes, ears, nose, or throat.
+Family Health History: 
+- Father had a heart attack and passed away two weeks ago
 
-**ASSESSMENT:**  
-Suspicion of cardiovascular issue given the family history of a recent heart attack.
+Alcohol Use:
+- Occasionally drinks 1-2 drinks on weekends
 
-**PLAN:**  
-1. Perform an ECG to assess cardiac function.
-2. Conduct blood work if necessary for further evaluation.
-3. Encourage the patient not to overly worry and await test results for a clearer understanding of the situation.
+Smoking:
+- Non-smoker
+
+Summary:
+A 25-year-old male student presenting with sharp chest pain for three days, worsened by coughing and lying down but alleviated by leaning forward. History of recent flu symptoms now resolved. No prior surgeries, occasional Tylenol use, no known allergies. Family history of a recent heart attack in father causing concern for possible heart issues. Occasional alcohol use on weekends, non-smoker. Provider plans ECG and blood work to investigate the cause of chest pain. Further evaluation needed to determine the underlying issue and provide appropriate management.

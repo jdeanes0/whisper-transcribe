@@ -423,9 +423,14 @@ class VoiceRecorder:
             # Transcribe the text from the audio (specified by the file_path) and place the string into result
             result = model.transcribe(file_path)
         elif self.largev2_checkbox_var.get():
-            model = whisper.load_model("large-v2")
+            # model = whisper.load_model("large-v2")
 
-            result = model.transcribe(file_path)
+            # result = model.transcribe(file_path)
+            result = client.audio.transcriptions.create(
+                model='whisper-1',
+                file=open(file_path, "rb"),
+                response_format='text'
+            )
         else:
             self.msglabel.config(text="A Whisper model must be selected!")
             self.button.config(state='normal')
@@ -457,7 +462,7 @@ class VoiceRecorder:
             self.msglabel.config(text="Transcribed text saved to '"+ output_file + "'")
         elif self.summary_checkbox_var.get():
             self.msglabel.config(text="Summarizing '"+file_path+"'. Do not exit the application.")
-            self.summarize_transcription(result["text"])
+            self.summarize_transcription(result)
         else:
             self.msglabel.config(text="A task must be selected!")
         # Enable transcription button
@@ -552,7 +557,63 @@ class VoiceRecorder:
         completion = client.chat.completions.create(model="gpt-3.5-turbo",
         messages=[
             {"role": "system", "content": "You are an attentive note-keeper."},
-            {"role": "user", "content": "Pretend that you are an insurance provider and you need to summarize an interview between patient and provider. Please create the summary using the format “SUBJECTIVE, MEDICATIONS, ALLERGIES, FAMILY HISTORY, LIFESTYLE HISTORY, OBJECTIVE, HEENT, ASSESSMENT,  PLAN.” Each category gets its own new line. After you read the interview that I will provide you with, you will write a paragraph for subjective, and a few sentences each for medications (anything that the patient currently takes that is over-the-counter or prescribed), allergies, family history, lifestyle history (alcohol/tobacco/other drug use), objective (The patient’s physical characteristics, this field is not to be left blank and you must say that there is no information if there truly is none), heent, assessment, and a numbered list for plan. (HEENT stands for HEAD, EYES, EARS, NOSE, and THROAT but present it as HEENT in the response. This category pertains to abnormal symptoms pertaining to these body parts, such as sore throat, headache, runny nose, earache, pink eye, etc.) Please provide a summary based solely on the information given in the interview. Do not include any additional tests or procedures that were not mentioned by the doctor."},
+            {"role": "user", "content": """Pretend that you are an insurance provider and you need to summarize an interview between patient and provider. A "->" character represents a sub-category. Please create a summary based on the following categories, sparing no details:
+
+            Patient Description(Age, Gender, Height, Weight)
+            Reason for Visit
+            Prior Surgeries
+            Prior/Current Illnesses/Injuries
+            Medications & Dosages
+            ->Blood Thinners
+            Allergies and Type(food, environmental, drug)
+            Smoking
+            Alcohol Use
+            Family Health History
+            Symptoms
+            ->Fever or Chills
+            ->Weight Loss
+            ->Hepatitis
+            ->HIV/Other Blood Diseases
+            ->Bleeding Disorders
+            ->Thyroid Problems
+            ->Diabetes
+            ->Arthritis
+            ->Mobility/Joint Problems
+            ->Constipation
+            ->Diarrhea
+            ->Blood in Stool
+            ->Nausea/Vomiting
+            ->Liver Problems
+            ->Heart Problems
+            ->Deep Vein Thrombosis/DVT
+            ->Blood Clots in Lungs/Legs
+            ->High Blood Pressure
+            ->Musculoskeletal Issues
+            ->Asthma
+            ->Sleep Apnea
+            ->Breast Abnormalities/Nipple Discharge/Previous Mammograms
+            ->Changes in Skin Moles
+            ->Lesions
+            ->Rashes
+            ->History of Keloids
+            ->Neurological Problems
+            ->Headaches
+            ->Genital or Oral Herpes
+            ->STDs
+            ->Blood in Urine
+            ->Urinary Tract Infection
+            ->Problems Urinating
+            ->Prostate Problems
+            ->Kidney Problems
+            ->Vision Problems
+            ->Hearing Problems
+            ->Sinus Problems
+            ->Throat Problems
+            ->Mood Swings
+            ->Anxiety/Depression
+            ->ANY OTHER ISSUES NOT LISTED
+
+            Please provide a summary based solely on the information given in the interview. Ignore subcategories if there was no information present in the interview about that subcategory. Do not include any additional tests or procedures that were not mentioned by the doctor."""},
             {"role": "assistant", "content": "Understood. Please provide the transcript of the fake interview, and I will proceed to generate the summary as per the specified format."},
             {"role": "user", "content": transcript},
         ])
