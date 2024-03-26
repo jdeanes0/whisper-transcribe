@@ -1,0 +1,31 @@
+1. Patient Description:
+   - Age: 39
+   - Gender: Male
+   - Height: Data Not Provided
+   - Weight: Data Not Provided
+
+2. Financial Information: Employed as an Accountant
+
+3. Reason for Visit: Chest Pain and Difficulty in Breathing
+
+4. Prior Surgeries: No prior surgeries
+
+5. Prior/Current illnesses/Injuries: None reported
+
+6. Medications & Dosages: Not taking any prescribed or over-the-counter medications
+
+7. Allergies and Type: No reported allergies
+
+8. Smoking: Smokes a pack of cigarettes daily for the past 10-15 years
+
+9. Alcohol Use: Drinks one or two drinks daily, approximately 10 per week
+
+10. Family Health History: Father had a heart attack at 45 and had cholesterol problems
+
+11. Symptoms:
+   -> Chest Pain: Sharp, constant chest pain located on the left side. Pain increases when lying down and taking deeper breaths. Severity: 7-8/10.
+   -> Shortness of Breath: Has been experiencing trouble breathing since the chest pain started.
+   -> Light-headedness: Reports feeling a little light-headed.
+   -> Slight Swelling in the Neck: Reports noticing mild swelling around the neck, but no pain.
+
+Please note that more details regarding height, weight, and exact financial status are essential for a comprehensive overview, which has not been provided during this interview. Also, even though a range of symptoms were discussed, any undiagnosed condition can present itself with a number of symptoms outside this range.

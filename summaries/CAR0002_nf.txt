@@ -1,0 +1,31 @@
+Patient Description: Male, 40, 5'8", 170 lbs
+
+->Financial Information: Drives a bus for the city, lives with parents.
+
+Reason for Visit: Chest pain on the left side, started 30 minutes ago. Pain feels dull and like there's a lot of pressure. Pain increases with movement and when lying down. Rated pain a 7/10. Shortness of breath.
+
+Prior Surgeries: None
+
+Prior/Current Illnesses/Injuries: Has high blood pressure and high cholesterol. Was tackled during rugby game the day before, chest felt fine afterward.
+
+Medications & Dosages: Takes medications for high blood pressure and cholesterol, specifically rosuvastatin and lisinopril. Also takes a multivitamin.
+
+Allergies and Type: None
+
+Smoking: Yes, for the last 20 years. Smokes half a pack to a pack a day.
+
+Alcohol Use: None
+
+Family Health History: No contributions mentioned.
+
+Symptoms:
+
+->Fever or Chills: Felt hot, measured temperature at 38 degrees
+
+->Heart Problems: Feels like heart is beating faster at the moment
+
+->High Blood Pressure: Diagnosed and on medication
+
+->Sinus Problems: Had a runny nose a few weeks ago, no similar issues since
+
+->ANY OTHER ISSUES NOT LISTED: No nausea, vomiting, leg swelling, fatigue, dizziness, fainting. No recent travel. No sick contacts. No rashes. No cough.

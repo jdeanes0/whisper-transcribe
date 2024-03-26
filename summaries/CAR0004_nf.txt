@@ -1,0 +1,28 @@
+Patient Description(Age, Gender, Height, Weight): 25 year old, gender not specified. Height and weight not provided.
+
+->Financial Information: Financial status unclear, indicated as a student and part-time postman.
+
+Reason for Visit: Sharp chest pain over the heart area, radiating to the neck, occurring intermittently for the past three days. Pain is rated as 6/10 and is most present during coughing or lying down, and it improves slightly by leaning forward.
+
+Prior Surgeries: None reported.
+
+Prior/Current Illnesses/Injuries: Flu last week with symptoms including fever, runny nose, cough, and fatigue.
+
+Medications & Dosages: Occasional Tylenol, took once yesterday which helped relieve pain.
+
+->Blood Thinners: None reported.
+
+Allergies and Type(food, environmental, drug): No reported allergies.
+
+Smoking: Non-smoker.
+
+Alcohol Use: Occasional alcohol consumption, 1-2 drinks on weekends.
+
+Family Health History: Father recently passed away from a heart attack.
+
+Symptoms:
+->Fever or Chills: None currently, had fever with flu last week.
+->Heart Problems: Complaining of chest pain for three days. Concerned about possibility of a heart attack due to family history.
+->ANY OTHER ISSUES NOT LISTED: No other symptoms reported.
+
+Please note that as per information provided, some categories such as patient height, weight, and additional symptoms beyond chest pain were not shared during the interview.

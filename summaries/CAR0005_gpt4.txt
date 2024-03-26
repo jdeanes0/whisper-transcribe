@@ -1,0 +1,38 @@
+Patient Description
+- Age: Not specified
+- Gender: Not specified
+- Height: Not specified
+- Weight: Not specified
+
+Reason for Visit
+- Patient has been experiencing episodes of sharp chest pain on the left side for the past two weeks. The episodes last for about 20 to 30 minutes and have happened two to three times since they started. The patient ranked the pain as a 4 out of 10 on a pain scale. The patient experiences these episodes mostly while at work or driving.
+
+Prior Surgeries
+- None mentioned during the interview.
+
+Prior/Current Illnesses/Injuries
+- The patient has no chronic conditions and is previously healthy.
+
+Medications & Dosages
+- Patient has taken Advil and Tylenol to manage chest pain, but no specific dosages were mentioned.
+
+Blood Thinners
+- None mentioned during the interview.
+
+Allergies and Type(food, environmental, drug)
+- Patient has no known allergies.
+
+Smoking
+- The patient is a smoker, currently consuming half a pack to a pack per day. They mentioned an attempt to quit smoking.
+
+Alcohol Use
+- The patient consumes one to two glasses of wine on weekends.
+
+Family Health History
+- The patient's father had a heart attack at age 60.
+
+Symptoms
+->Heart Problems
+- Experiencing sharp chest pain on the left side for the past two weeks that occurs at random times, especially during work or driving.
+
+No information was provided during the interview about the other subcategories.

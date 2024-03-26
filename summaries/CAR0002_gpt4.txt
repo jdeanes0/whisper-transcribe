@@ -1,0 +1,31 @@
+Based on the information you provided, here's the medical summary of the patient:
+
+**Patient Description:** Personal details such as age, gender, height, and weight were not provided.
+
+**Reason for Visit:** Patient came in due to sudden chest pain on his left side that started 30 minutes ago while shovelling the driveway. The pain is described as a dull pressure, rated 7 out of 10, and worstens with movement. Has been experiencing difficulty breathing since yesterday.
+
+**Prior Surgeries:** None mentioned.
+
+**Prior/Current Illnesses/Injuries:** The patient has high blood pressure and high cholesterol. The patient also plays rugby and recently got tackled but felt no chest pain afterward.
+
+**Medications & Dosages:** The patient is currently using risubastatin and lisinopril for high cholesterol and high pressure, and a multivitamin.
+
+**Blood Thinners:** None mentioned.
+
+**Allergies and Type:** The patient claimed to have no allergies.
+
+**Smoking:** The patient is a smoker and has been smoking for approximately 20 years, half a pack to a pack a day.
+
+**Alcohol Use:** The patient does not use alcohol.
+
+**Family Health History:** They shared no family history of heart attack or cancer.
+
+**Symptoms:**
+      ->Fever or Chills: The patient has reported feeling slightly hot, with a temperature of 38 degrees Celsius.
+      ->Liver Problems: In the past, they've used crystal meth a couple of times a month for seven years, last used six days ago. No other liver-related issues mentioned.
+      ->Heart Problems: The patient reported a faster heartbeat, primarily associated with physical activity. Pain in the left side of the chest is also noted.
+      ->High Blood Pressure: The patient has confirmed high blood pressure and is on medication for the same.
+      ->Respiratory Issues: Besides the chest pain, the patient reported having difficulty breathing since yesterday.
+      ->STDs, Musculoskeletal issues, Diabetes, Kidney Problems, Vision Problems, etc: Not mentioned.
+
+**ANY OTHER ISSUES NOT LISTED:** The patient lives in a house with his parents and is a bus driver for the city. They exercise once a week and have a mostly balanced diet with occasional eating out.

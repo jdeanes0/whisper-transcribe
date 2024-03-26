@@ -1,0 +1,36 @@
+Here is the summary from the provided transcript:
+
+1. **Patient Description(Age, Gender, Height, Weight)**: 
+   -> Information not provided.
+   
+2. **Financial Information**: 
+    -> Information not provided. 
+
+3. **Reason for Visit**: 
+    -> Breathlessness getting worse over the past two months, especially upon walking more than 50 meters and when lying down. Also experiencing frothy sputum and leg swelling starting around same time.
+
+4. **Prior Surgeries**: 
+    -> Stent placement post heart attack four years ago.
+
+5. **Prior/Current Illnesses/Injuries**: 
+  -> High blood pressure, diabetes, high cholesterol, heart attack four years ago possibly resulting in congestive heart failure present.
+
+6. **Medications & Dosages**: 
+   -> Aspirin, Ramipril, Simvastatin. Dosages not specified.
+
+7. **Allergies and Type(food, environmental, drug)**: 
+    -> No known allergies.
+
+8. **Smoking**: 
+   -> Past smoker, used to smoke 10 cigarettes a day for approximately 40 years. Currently not smoking.
+
+9. **Alcohol Use**: 
+   -> Not currently consuming alcohol.
+
+10. **Family Health History**: 
+    -> Father died of a heart attack at age 60.
+
+11. **Symptoms**: 
+    -> Breathlessness, fatigue, frothy sputum, and leg swelling.
+    -> No reported fever or chills, weight loss, hepatitis, HIV/other blood diseases, bleeding disorders, thyroid problems, arthritis, mobility/joint problems, constipation, diarrhea, blood in stool, nausea/vomiting, liver problems, heart problems (besides past heart attack), Deep Vein Thrombosis/DVT, blood clots in lungs/legs, Musculoskeletal issues, Asthma, Sleep Apnea, Breast abnormalities/nipple discharge/previous mammograms, Changes in skin moles, lesions, rashes, history of Keloids, neurological problems, headaches, genital or oral herpes, STDs, Blood in Urine, Urinary tract infection, problems urinating, prostate problems, kidney problems, vision problems, hearing problems, Sinus problems, throat problems, Mood swings, Anxiety/Depression.
+    -> No other issues not listed were mentioned.

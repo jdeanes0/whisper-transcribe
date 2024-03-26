@@ -554,80 +554,112 @@ class VoiceRecorder:
     def summarize_transcription(self, transcript):
         # Completes a chat simulation, utilizes the audio transcript
         summarize_start = time.time()
-        completion = client.chat.completions.create(model="gpt-3.5-turbo",
-        messages=[
-            {"role": "system", "content": "You are an attentive note-keeper."},
-            {"role": "user", "content": """Pretend that you are an insurance provider and you need to summarize an interview between patient and provider. A "->" character represents a sub-category. Please create a summary based on the following categories, sparing no details:
+        question1 = client.chat.completions.create(model="gpt-4",
+                                                   messages=[
+                                                       {"role": "system", "content": "You are to be asked a simple question, and you must respond with one of the following 6 options only, just one word: (cardiovascular, dermatological, respiratory, gastrointestinal, musculoskeletal, other)"},
+                                                       {"role": "user", "content": "What is the primary focus of the patient's health concerns?"},
+                                                       {"role": "user", "content": transcript}
+                                                   ],
+                                                   n=3)
+        
+        if "other" in question1.choices[0].message.content:
+            completion = client.chat.completions.create(model="gpt-4",
+            messages=[
+                {"role": "system", "content": "You are an attentive note-keeper, and you find sticking to a clean format is the most important part of note-taking."},
+                {"role": "user", "content": """Pretend that you are an insurance provider and you need to summarize an interview between patient and provider. A "->" character represents a sub-category. Please create a summary based on the following categories, sparing no details:
 
-            Patient Description(Age, Gender, Height, Weight)
-            Reason for Visit
-            Prior Surgeries
-            Prior/Current Illnesses/Injuries
-            Medications & Dosages
-            ->Blood Thinners
-            Allergies and Type(food, environmental, drug)
-            Smoking
-            Alcohol Use
-            Family Health History
-            Symptoms
-            ->Fever or Chills
-            ->Weight Loss
-            ->Hepatitis
-            ->HIV/Other Blood Diseases
-            ->Bleeding Disorders
-            ->Thyroid Problems
-            ->Diabetes
-            ->Arthritis
-            ->Mobility/Joint Problems
-            ->Constipation
-            ->Diarrhea
-            ->Blood in Stool
-            ->Nausea/Vomiting
-            ->Liver Problems
-            ->Heart Problems
-            ->Deep Vein Thrombosis/DVT
-            ->Blood Clots in Lungs/Legs
-            ->High Blood Pressure
-            ->Musculoskeletal Issues
-            ->Asthma
-            ->Sleep Apnea
-            ->Breast Abnormalities/Nipple Discharge/Previous Mammograms
-            ->Changes in Skin Moles
-            ->Lesions
-            ->Rashes
-            ->History of Keloids
-            ->Neurological Problems
-            ->Headaches
-            ->Genital or Oral Herpes
-            ->STDs
-            ->Blood in Urine
-            ->Urinary Tract Infection
-            ->Problems Urinating
-            ->Prostate Problems
-            ->Kidney Problems
-            ->Vision Problems
-            ->Hearing Problems
-            ->Sinus Problems
-            ->Throat Problems
-            ->Mood Swings
-            ->Anxiety/Depression
-            ->ANY OTHER ISSUES NOT LISTED
+                Patient Description(Age, Gender, Height, Weight)
+                ->Financial Information
+                Reason for Visit
+                Prior Surgeries
+                Prior/Current Illnesses/Injuries
+                Medications & Dosages
+                ->Blood Thinners
+                Allergies and Type(food, environmental, drug)
+                Smoking
+                Alcohol Use
+                Family Health History
+                Symptoms
+                ->Fever or Chills
+                ->Weight Loss
+                ->Hepatitis
+                ->HIV/Other Blood Diseases
+                ->Bleeding Disorders
+                ->Thyroid Problems
+                ->Diabetes
+                ->Arthritis
+                ->Mobility/Joint Problems
+                ->Constipation
+                ->Diarrhea
+                ->Blood in Stool
+                ->Nausea/Vomiting
+                ->Liver Problems
+                ->Heart Problems
+                ->Deep Vein Thrombosis/DVT
+                ->Blood Clots in Lungs/Legs
+                ->High Blood Pressure
+                ->Musculoskeletal Issues
+                ->Asthma
+                ->Sleep Apnea
+                ->Breast Abnormalities/Nipple Discharge/Previous Mammograms
+                ->Changes in Skin Moles
+                ->Lesions
+                ->Rashes
+                ->History of Keloids
+                ->Neurological Problems
+                ->Headaches
+                ->Genital or Oral Herpes
+                ->STDs
+                ->Blood in Urine
+                ->Urinary Tract Infection
+                ->Problems Urinating
+                ->Prostate Problems
+                ->Kidney Problems
+                ->Vision Problems
+                ->Hearing Problems
+                ->Sinus Problems
+                ->Throat Problems
+                ->Mood Swings
+                ->Anxiety/Depression
+                ->ANY OTHER ISSUES NOT LISTED
 
-            Please provide a summary based solely on the information given in the interview. Ignore subcategories if there was no information present in the interview about that subcategory. Do not include any additional tests or procedures that were not mentioned by the doctor."""},
-            {"role": "assistant", "content": "Understood. Please provide the transcript of the fake interview, and I will proceed to generate the summary as per the specified format."},
-            {"role": "user", "content": transcript},
-        ])
-        # Recieves the summarizaed text from the chat simulation
-        summarized_text = completion.choices[0].message.content
-        summarize_end = time.time() - summarize_start
-        print(summarize_end)
-        # Create output file
-        output_file = self.text_output.get()
-        with open(output_file, 'w') as file:
-            # Write the transcribed text to the output file
-            file.write(summarized_text)
-        # Tell user that summarized text has been saved to the output file.
-        self.msglabel.config(text="Summarized text saved to '"+ output_file + "'")
+                Please provide a summary based solely on the information given in the interview. Ignore subcategories if there was no information present in the interview about that subcategory. Do not include any additional tests or procedures that were not mentioned by the doctor.
+                For your output, please return the summary in a list, with each item having an empty line in between it and the next item. Prioritize giving each item subitems over having a long, singular item. Do not use \'*\' characters to bold text.
+                As for items, format them as follows: \"<ITEM>: <information>\". As for sub-items, format them as follows: \"-> <SUB-ITEM>: <information>\". If there is no information for a sub-item, do not include it in the summary. However, there must be information provided for each item."""},
+                {"role": "assistant", "content": "Understood. Please provide the transcript of the fake interview, and I will proceed to generate the summary as per the specified format."},
+                {"role": "user", "content": transcript},
+            ])
+            print("Number of tokens:", completion.usage)
+            print("Number of tokens:", completion.usage.total_tokens)
+            # Recieves the summarizaed text from the chat simulation
+            summarized_text = completion.choices[0].message.content
+            summarize_end = time.time() - summarize_start
+            print(summarize_end)
+            # Create output file
+            output_file = self.text_output.get()
+            with open(output_file, 'w') as file:
+                # Write the transcribed text to the output file
+                file.write(summarized_text)
+            # Tell user that summarized text has been saved to the output file.
+            self.msglabel.config(text="Summarized text saved to '"+ output_file + "'")
+        elif ("cardiovascular","Cardiovascular") in question1.choices[0].message.content:
+            print("CAR")
+            self.msglabel.config(text="CAR")
+        elif("dermatological","Dermatological") in question1.choices[0].message.content:
+            print("DER")
+            self.msglabel.config(text="DER")
+        elif ("respiratory","Respiratory") in question1.choices[0].message.content:
+            print("RES")
+            self.msglabel.config(text="RES")
+        elif ("gastrointestinal","Gastrointestinal") in question1.choices[0].message.content:
+            print("GAS")
+            self.msglabel.config(text="GAS")
+        elif ("musculoskeletal","Musculoskeletal") in question1.choices[0].message.content:
+            print("MSK")
+            self.msglabel.config(text="MSK")
+        else:
+            print("Error: GPT Failed to categorize the patient's health concerns. Summarization not proceeding.")
+            self.msglabel.config(text="Error: GPT Failed to categorize the patient's health concerns. Summarization not proceeding.")
 
 # Start Voice Recorder Class
 VoiceRecorder()

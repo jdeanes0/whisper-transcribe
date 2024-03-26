@@ -1,0 +1,31 @@
+Patient Description: 
+Age, Gender, Height, and Weight: Not specified in the interview.
+
+Reason for Visit: 
+The patient has been experiencing worsening breathlessness over the past two months, particularly when walking more than 50 meters or lying flat. The patient also notes sometimes coughing with frothy sputum and swelling in the legs that began around the same time as the breathlessness.
+
+Prior Surgeries: 
+The patient had a stent inserted following a heart attack four years ago.
+
+Prior/Current Illnesses/Injuries: 
+In addition to breathlessness and swelling, the patient has a history of a heart attack, high blood pressure, and diabetes, for which the patient takes medications including aspirin, Ramipril, and Simvastatin.
+
+Allergies and Type: 
+The patient reported no known allergies.
+
+Smoking: 
+The patient used to smoke ten cigarettes per day for 40 years but has since quit.
+
+Alcohol Use: 
+The patient does not drink alcohol. 
+
+Family Health History: 
+The patient’s father died of a heart attack at age 60.
+
+Symptoms:  
+No other symptoms were reported that fell under the subcategories provided. The patient does not exhibit fever or chills, weight loss, hepatitis or other blood diseases, bleeding disorders, arthritis or joint problems, thyroid problems, etc.
+
+Other Findings:  
+The patient's breathlessness was worse at night and when lying flat. The patient also noted chest discomfort when climbing three to four flights of stairs. Increased fatigue throughout the day was reported, along with reduced and imbalanced dietary intake and decrease in activities in the past two months due to breathlessness.
+
+At the end of the consultation, the provider suspected the patient might be having congestive heart failure but planned to do further investigations to confirm this diagnosis.

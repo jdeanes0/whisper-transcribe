@@ -1,0 +1,22 @@
+"Patient Description: Age not declared, Gender not declared, Height not declared, Weight not declared
+
+Reason for Visit: Patient experiencing sharp, intermittent chest pain on the left side over the past two weeks, each episode lasting about 20 to 30 minutes.
+
+Prior Surgeries: No prior surgeries mentioned.
+
+Prior/Current Illnesses/Injuries: No prior or current illnesses/injuries reported. 
+
+Medications & Dosages: The patient occasionally takes Advil and Tylenol for the chest pain with no reported improvement.
+
+Allergies and Type: The patient does not have any known allergies.
+
+Smoking: The patient smokes about a half to a full pack per day, though they are working towards quitting.
+
+Alcohol Use: The patient occasionally drinks alcohol, specifically one or two glasses of wine during the weekends.
+
+Family Health History: The patient's father had a heart attack at the age of 60 the previous year.
+
+Symptoms
+->Heart Problems: Sharp, intermittent chest pain localized on the left side."
+
+No other sub-categories or issues were mentioned during the interview.
